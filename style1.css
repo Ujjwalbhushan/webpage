@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    bottom: 0px;
+    font-family:'Open Sans';
+}
+
+
+nav{
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+nav .logo{
+    cursor: pointer;
+    float: left;
+    padding: 15px 20px;
+
+}
+
+.nav-link{
+    padding: 20px 14px;
+    display: inline-block;
+    list-style: none;
+}
+
+
+nav ul{
+    display: inline;
+}
+
+nav li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a :hover{
+    color: rgb(8, 224, 54);
+    text-shadow: 1px 1px 1px black;
+}
+
+.user-pic{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.nav .welcome{
+    float: right;
+    display: inline-flex;
+    padding: 14px 25px;
+}
+.nav .welcome :hover{
+    cursor: pointer;
+    color: rgb(8, 224, 54);
+}
+.nav .welcome .logout-button{
+    height: 25px;
+    width: 70px;
+    margin-left: 17px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgb(217, 244, 222);
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.container .banner-button{
+    position: absolute;
+    margin-left: 900px;
+    padding: 25px;
+}
+
+.container .banner-button button{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+
+
+.container .banner-button .my-profile{
+    height: 30px;
+    width: 100px;
+    border-right: none;
+}
+.container .banner-button .contact-us{
+    height: 30px;
+    width: 100px;
+    border-left: 1px;
+    border-right: none;
+
+}
+.container .banner-button .imgage{
+    height: 30px;
+    width: 50px;
+    border-left: none;
+}
+
+.container .banner-button .imgage img{
+    height: 15px;
+    width: 25px;
+}
+
+
+.card-section{
+    width: 90%;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cards{
+    height: 45vh;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards:hover{
+    border: 5px solid rgb(8, 224, 54);
+    transition: 0.05s;
+}
+.image{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.des{
+    font-size: 85%;
+    margin-top: 10px;
+    padding: 6px;
+    text-align: center;
+    color: rgb(104, 104, 104);
+}
+
+.main{
+    position: relative;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    box-shadow:1px 1px 3px black;
+    margin-top: -35px;
+}
+
+.bottom-button p{
+    margin-left: 89%;
+    margin-bottom: 20px;
+}
+.buttons{
+    margin-left: 890px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.back{
+    background-color: white;
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+
+}
+.buttons .back:hover{
+    color: white;
+    background-color: rgb(8, 224, 54);
+}
+.add{
+    background-color: rgb(8, 224, 54);
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons .add :hover{
+    color: black;
+    background-color: white;
+}
+
+.remove{
+    background-color: rgb(68, 224, 54);
+    height: 25px;
+    width: 80px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.footer{
+    text-align: center;
+    background-color:white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    color: rgb(115, 114, 114);
+}
+.footer p{
+    padding: 20px;
+    font-size: 95%;
+}
+.footer span{
+    font-size: 80%;
+}
+
+.widget-filter{
+    float: right;
+    margin-top: -40px;
+    margin-right: 53px;
+}
+
+.widget-filter ::placeholder{
+    color: black;
+    font-size: 13px;
+}
